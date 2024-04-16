@@ -1,0 +1,115 @@
+.main{
+    background-image: url('maindog.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+box-sizing: border-box;
+height: 700px;
+}
+header{
+    position: absolute;
+    top:0;
+     height: 90px;
+     background-color: transparent;
+     margin-left: 50px;
+}
+
+.navbar{
+    height: 90px;
+
+}
+
+.navbar ul{
+    display: inline-flex;
+    list-style: none;
+    float: right;
+    margin-left: 50px;
+}
+.navbar ul li{
+    list-style-type: none;
+    padding: 5px;
+    margin: 20px 10px;
+    float: right;
+    position: relative;
+}
+.navbar ul li a{
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:medium;
+    color:white;
+
+}
+.navbar ul li a:hover{ 
+
+    font-size: 17px;
+}
+.btn{
+color: rgb(15, 15, 15);background-color: yellow; font-size: 20px;
+}
+.service__grid {
+    margin-top: 4rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+  }
+
+  .card{
+    padding: 2rem;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  border-bottom: 1px dotted #fff;
+  }
+
+  .card p{
+    margin-bottom: 1rem;
+    color: rgb(14, 13, 13);
+  }
+
+  .logos{
+    display: flex;
+    
+  }
+  .logos a{
+    background-color: orange; color: aliceblue; height: 25px; width: 25px; text-align: center;
+    text-decoration: none;
+  }
+  .logos a:hover{
+    background-color:blue ;
+  }
+
+  .older a{
+    text-decoration: none;
+    color: rgb(69, 191, 240);
+  }
+.older img{
+    height: 200px;
+    width: 100%;
+}
+
+  .Categories{
+    margin-left: 100px;
+    font-size: larger;
+    margin-top: -30px;
+  }
+  .Categories a{
+    text-decoration: none;
+    color: orange;
+  }
+
+  .Categories a:hover{
+    color: blue;
+  }
+
+  .resources{
+    margin-left: 100px;
+    font-size: larger;
+    margin-top: -30px;
+  }
+  .resources a{
+    text-decoration: none;
+    color: orange;
+  }
+  .resources a:hover{
+    color: blue;
+  }
