@@ -1,0 +1,90 @@
+.body{
+    margin: 0;
+    padding: 0;
+}
+#title{
+    height: 700px;
+    width: 100%;
+    background-color: #ff4c68;
+}
+.container-fluid{
+   
+    margin: 20px;
+    padding: 10px;
+}
+.container-fluid .navbar-brand{
+    /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+    font-family: ubuntu;
+    color:white;
+ font-size: 50px;
+ margin-left: 142px;
+        margin: 33px;
+        padding: 4px;
+        font-weight: bold;
+}
+.navbar-collapse{
+    background-color: #ff4c68;
+    padding: 10px;
+    margin-right: 155px;
+   
+}
+.navbar-collapse ul{
+    font-size: 20px;
+    gap: 36px;
+}
+.big-heading{
+    color: aliceblue;
+    font-weight: bolder;
+    margin-left: 65px;
+}
+
+.meet{
+    
+    font-size: 40px;
+    margin-top: -30px;
+}
+.big-heading {
+    font-family: "Montserrat", "sans-serif";
+    font-size: 3.5rem;
+    line-height: 1.5;
+    font-weight: bolder;
+}
+.btn1{
+    background-color: rgb(43, 38, 38);
+    color: white;
+    border-radius: 11px;
+    font-size: 25px;
+}
+.btn1:hover{
+    background-color: black;
+}
+.btn2{
+    background-color: transparent;
+    color: white;
+    border-radius: 11px;
+    font-size: 25px;
+    border-color: aliceblue;
+}
+.btn2:hover{
+    background-color: wheat;
+    color: black;
+}
+.iphone-img {
+    width: 60%;
+    position: absolute;
+    right: 30%;
+  }
+  .rotate-25 {
+    transform: rotate(25deg);
+  }
+
+ 
+@media (max-width: 1028px) {
+    #title {
+      text-align: center;
+    }
+    .iphone-img {
+      position: static;
+      transform: rotate(0);
+    }
+  }
