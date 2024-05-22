@@ -18,6 +18,7 @@ header{
 
 }
 
+
 .navbar ul{
     display: inline-flex;
     list-style: none;
@@ -31,6 +32,7 @@ header{
     float: right;
     position: relative;
 }
+
 .navbar ul li a{
     text-decoration: none;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
